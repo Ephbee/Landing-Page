@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background-color: rgba(0, 255, 255, 0);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 4px black solid;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-right: 48px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border: 2px red solid;
+    border-radius: 4px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.herosection {
+    background: url(./images/Nightski.jpg);
+    padding-top: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: bottom 80%;
+    background-size: cover;
+}
+.mediaboxhero {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 32px 256px 32px;
+    gap: 128px;
+    border: 2px red solid;
+}
+.hero-right {
+    max-width: 300px;
+    border-radius: 5px;
+    flex: 1 1 auto;
+}
+.hero-left {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 48px;
+    flex: 1 1 auto;
+}
+.hero-left button {
+    align-self: center;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-top: 16px;
+    background: transparent;
+    border: 3px black solid;
+
+}
