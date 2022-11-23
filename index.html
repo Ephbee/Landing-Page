@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Erah Landingpage</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./images/astronaut.jpeg" />
 </head>
 <body>
     <header>
         <a id="logo" href="">ERAH - DEV </a>
         <nav>
             <ul>
-                <li><a href="">Link1</a></li>
-                <li><a href="">Link2</a></li>
-                <li><a href="">Link3</a></li>
-                <li><a href="">Link4</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -30,37 +29,55 @@
             <div class="mediaboxhero">
                 <div class="hero-left">
                 <H1>Welcome to <em>my</em> portfolio website!</H1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta deleniti autem magni, maiores dolore explicabo tempore, illum, eligendi dolores recusandae illo rerum laboriosam. Est ducimus facilis eius eveniet animi aliquid!</p>
+                <p>Hey! My name is Filip and I created this website mainly for peronal use to store all my project I have worked on. This website was also created as a project during The Odin Project.<br>Btw. this button doesn't do anything, I just thought it would be cool to have it here.</p>
                     <Button><a>Click me</a></Button>
                 </div>
                 <img class="hero-right" src="./images/astronaut.jpeg"> 
             </div>
         </div>
-        <div class="portfoliosection">
+        <div class="portfoliosection" id="portfolio">
             <div class="portfoliocontainer">
+                
+                <div class="card">
+                    <h3 id="antikinterier">Antikinterier E-shop</h3>
+                    <a target="_blank" href="https://www.antikinterier.cz"><img src="./images/Antikinterier.png" alt=""></a>
+                    <p>First website project I have ever done! It's build using <strong>Wordpress and Woocommerce</strong> with mainly prebuilt tools, just a few lines of custom <strong>CSS</strong><p>
+                </div>
+                <div class="card">
+                    <h3 id="doricek">Do Říčcek</h3>
+                    <a href="https://www.doricek.cz" target="_blank"><img src="./images/Doricek.png" alt=""></a>
+                    <p>Second project I have worked on - presentation web for apartments in Orlické hory. It's also build using <strong>Wordpress</strong> and custom <strong>CSS</strong>. Most of the visitors are using mobile devices so I tried to make it as friendly as possible for them.</p>
+                </div>
                 <div class="card">
                     <h3>Portfolio website</h3>
                     <img src="./images/landingpage.png" alt="">
-                    <p>This very page! Yes, this is my first project I completed (actually am completing just now for The Odin Project!) </p>
-                </div>
-                <div class="card">
-                    <h3>Second project</h3>
-                    <img src="./images/landingpage.png" alt="">
-                    <p>Yet to be completed. Probably going to be Rock, Paper, Scissors!<p>
-                </div>
-                <div class="card">
-                    <h3>Third project</h3>
-                    <img src="./images/landingpage.png" alt="">
-                    <p>Who knows what's that going to be! Can't wait to find out myself.</p>
+                    <p>This very page! Yes, this is my first project I completed (actually am completing just now for The Odin Project!) and completely from scratch just by using <strong>HTML and CSS</strong></p>
                 </div>
             </div>
         </div>
         <div class="quotesection">
             <div class="quotecontainer">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptatibus quam, veritatis, libero enim quae unde repudiandae ut nam fugiat ullam commodi nisi est asperiores iste voluptatum? Optio, tempore fugit!</p>
+                <p>This page might seem blank at the current moment. I will be adding more sections and content as I progress with my website development and other languages development skills. Goal is to master HTML, CSS, Javascript, Python and hopefully more in the future!</p>
                 <p class="quoter">- My Random Thoughts 2022</p>
             </div>
         </div>
+        <div class="contactsection" id="contact">
+            <div class="contactcontainer">
+                <h3>Contact me!</h3>  
+                <p>Hey! If you found my portfolio website interesting, you can check out my GitHub where I store mainly projects from my learning journey. Or you can say <strong>HI! </strong> on Twitter.</p>
+                <div class="contacts">
+                    <div class="contactcard">
+                        <a href="https://github.com/Ephbee" target="_blank"><img src="./images/github.png" alt=""></a>
+                    </div>
+                    <div class="contactcard">
+                        <a href="https://twitter.com/NFTErah" target="_blank"><img src="./images/Twitter-logo.png" alt=""></a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <footer>
+            <p>Created by ERAH during <a target="_blank" href="https://www.theodinproject.com/">The Odin Project</a> course.</p>
+        </footer>
     </div>
 </body>
 </html>

@@ -12,6 +12,7 @@ p,a{
     color: #DAD7DB;
     font-size: 18px;
     line-height: 1.5;
+    text-decoration: none;
 }
 h1 {
     font-size: 48px;
@@ -90,9 +91,9 @@ li a {
     background-position: 0% 90% ;
     background-size: cover;
     padding: 96px 32px 256px 32px;
-    -webkit-box-shadow: 0px 10px 47px 36px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 10px 47px 36px rgba(0,0,0,0.3);
-    box-shadow: 0px 10px 47px 36px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 10px 47px 36px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 10px 47px 36px rgba(0,0,0,0.15);
+    box-shadow: 0px 10px 47px 36px rgba(0,0,0,0.15);
     z-index: 1;
 }
 .mediaboxhero,
@@ -143,9 +144,13 @@ li a {
 .hero-left button a:hover{
     color:#EDED5E;
 }   
+.portfoliosection {
+    background-image: url(./images/Sprinkle.svg);
+    
+}
 .portfoliosection,
-.quotesection {
-    background-color: #69616B;
+.quotesection
+ {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +167,7 @@ li a {
 }
 .card {
     width: 420px;
-    height: 350px;
+    height: 400px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -183,16 +188,54 @@ li a {
 }
 .quotesection p {
     color: #343036;
+    padding: 16px;
 }
-.quotecontainer {
+.quotecontainer,
+.contactcontainer {
     padding-top: 0;
     flex-direction: column;
     gap: 32px;
     width: 1310px;
     max-width: 1310px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
 }
 .quoter {
     align-self: flex-end;
     font-size: 24px;
     font-style: italic;
+    padding: 16px;
+}
+.contactsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 0px 128px 0px;
+    background-image: url(./images/Sprinkle.svg);
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 128px;
+    
+}
+.contactcard img{
+    width: 100px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #343036;
+}
+#doricek {
+    color: white;
+}
+#antikinterier {
+    color: #d8a31a;
 }
